@@ -1,0 +1,65 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+
+<!-- <h1>All Courses</h1> -->
+<?php if ($courses->count()): ?>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th class="tr_size">Course No</th>
+				<th class="tr_size">Course Name</th>
+                <th class="tr_size">Book</th>
+				<th class="tr_size">Semester</th>
+				<!-- <th class="tr_size">Semester</th> -->
+				<th class="tr_size">Professor</th>
+				
+            </tr>
+        </thead>
+
+        <tbody>
+            <?php foreach ($courses as $course): ?>
+                <tr class="tr_size">
+                    <td class="td_size"><?php echo e($course->course_number); ?></td>
+					<td class="td_size"><?php echo e($course->course_name); ?></td> 
+                    <td class="td_size"><?php echo e($course->book); ?></td>
+					<td class="td_size"><?php echo e($course->fall_semester); ?></td>
+					<!-- <td class="td_size"><?php echo e($course->spring_semester); ?></td> -->
+					<td class="td_size"><?php echo e($course->professor); ?></td>
+					
+                    <!-- <td><?php echo link_to_route('courses.edit', 'Edit', array($course->id), array('class' => 'btn btn-info')); ?></td>
+                    <td>
+                        <?php echo Form::open(array('method' => 'DELETE', 'route' => array('courses.destroy', $course->id))); ?>
+                            <?php echo Form::submit('Delete', array('class' => 'btn btn-danger')); ?>
+                        <?php echo Form::close(); ?>
+                    </td> -->
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+<?php else: ?>
+    There are no courses
+<?php endif; ?>
+
+<p><?php echo link_to_route('courses.create', 'Add Course'); ?></p> <br />
+
+<!-- <?php echo e($course->course_number); ?> -->
+
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/courses-index.css'); ?> ">
+ 
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

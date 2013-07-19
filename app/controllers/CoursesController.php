@@ -71,10 +71,10 @@ class CoursesController extends BaseController {
      */
     public function show($id)
     {
-        $courses = $arrayName = array('courses' => 'courses.show', compact('course'));
+        // $courses = $arrayName = array('courses' => 'courses.show', compact('course'));
         $course = $this->course->findOrFail($id);
 
-        return View::make('courses.show', compact('course'))->;
+        return View::make('courses.show', compact('course'));
     }
 
     /**

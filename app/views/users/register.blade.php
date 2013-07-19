@@ -64,6 +64,27 @@
 	</div>
 	<!-- ./ password confirm -->
 
+	<!-- Terms Name -->
+	<div class="control-group {{ $errors->has('terms') ? 'error' : '' }}">
+		<label class="control-label" for="terms">I agree to the Terms*</label>
+		<div class="controls">
+			<input type="checkbox" name="active" id="terms" value="1" />
+			{{ $errors->first('terms', '<span class="help-inline">:message</span>') }}
+		</div>
+		
+	</div>
+	<!-- ./ Terms name -->
+
+	<!-- location Name -->
+	<div class="control-group {{ $errors->has('location') ? 'error' : '' }}">
+		<label class="control-label" for="location">School *</label>
+		<div class="controls">
+			<input type="text" name="location" id="location" value="{{ Request::old('location') }}" />
+			{{ $errors->first('location', '<span class="help-inline">:message</span>') }}
+		</div>
+	</div>
+	<!-- ./ location name -->
+
 	<!-- Signup button -->
 	<div class="control-group">
 		<div class="controls">

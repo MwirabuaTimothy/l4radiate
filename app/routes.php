@@ -20,6 +20,7 @@ Route::controller('users', 'UsersController');
 Route::resource('users/index', 'UsersController');
 Route::resource('login', 'UsersController');
 Route::resource('register', 'UsersController');
+Route::resource('courses', 'CoursesController');
 
 /*
 |--------------------------------------------------------------------------

@@ -197,7 +197,9 @@ class UsersController extends AuthorizedController
 			'lastname'             => 'required',
 			'email'                 => 'required|email|unique:users',
 			'password'              => 'required|confirmed',
-			'password_confirmation' => 'required'
+			'password_confirmation' => 'required',
+			'terms'					=> '',
+			'location'				=> 'required'
 		);
 
 		// Validate the inputs.
@@ -215,11 +217,14 @@ class UsersController extends AuthorizedController
 			$user->lastname  = Input::get('lastname');
 			$user->email      = Input::get('email');
 			$user->password   = Hash::make(Input::get('password'));
+			$user->password_confirmation   = Hash::make(Input::get('password_confirmation'));
+			$user->terms      = '1';
+			$user->location   = Input::get('location');
 			$user->save();
 
-			// Redirect to the register page.
-			//
+			// Redirect to the register page.			
 			return Redirect::to('users/register')->with('success', 'Account created with success!');
+			
 		}
 
 		// Something went wrong.

@@ -25,6 +25,10 @@ body {
 	margin-right: auto;
 	margin-top: 20px;
 }
+
+.content{
+  padding: 0px;
+}
  
 .tr_size{
 	width: inherit;
@@ -63,8 +67,8 @@ body {
 	width:180px;
 	height:500px;
 	float:left;
-	margin-left: -110px;
-	margin-top: -20px;
+	margin-left: 0px;
+	margin-top: 0px;
 	text-decoration:none;
 	background-color: #CCC;
 }
@@ -134,7 +138,7 @@ li.left_side a:hover
 	width:645px;
 	height:auto;
 	float:left;
-	margin:-20px 0 0 0px;
+	margin:0px 0 0 0px;
 	background-color:#FFF;
 }
  
@@ -209,6 +213,11 @@ li.left_side a:hover
 	float:left;
 	color: #000;
 }
+
+.editbtn{
+	float: left;
+	margin-left: 400px;
+}
 	
 .textfield{
 	width:250px;
@@ -230,21 +239,22 @@ li.left_side a:hover
 }
 
 .right_content{
-	width:150px;
+	width:265px;
 	height:auto;
-	margin:-20px -10px 0 20px; 
-	float:right;
+	margin:0 0 0 5px; 
+	float:left;
+	padding-top: -3px;
+	background-color: #CCC;
 }
 
-.right_content ul{
-	
-}
 
 .progress_bar_title{
 	width:230px;
 	height:20px;
 	float:left;
-	margin:-15px  0 0 5px;
+	margin:0px 2px 0 5px;
+	color: #000;
+	font-size: 12px;
 }
 
 .progress_bar{
@@ -255,6 +265,22 @@ li.left_side a:hover
 	background-color:#666;
 }
 
+.bar{
+	width:200px;
+	background-color: white;
+	border: 1px;
+	border-color: #000;
+	height: 25px;
+	margin: 10px 0 0 3px;
+}
+
+.bar_color{
+	width:100px;
+	background-color: green;
+	height: 25px;
+	float: left;
+
+}
 
 .popular_books_bar{
 	width:250px;

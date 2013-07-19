@@ -9,25 +9,21 @@ try
 	//Getting records (listAction)
 	if($_GET["action"] == "list")
 	{
-		//Get record count
-		$result = mysql_query("SELECT COUNT(*) AS RecordCount FROM courses;");
-		$row = mysql_fetch_array($result);
-		$recordCount = $row['RecordCount'];
-
 		//Get records from database
-		$result = mysql_query("SELECT * FROM courses ORDER BY " . $_GET["jtSorting"] . " LIMIT " . $_GET["jtStartIndex"] . "," . $_GET["jtPageSize"] . ";");
+		//$result = mysql_query("SELECT id, course_number, course_name, created_at FROM courses;");
+		$result = mysql_query("SELECT * FROM courses;");
 		
 		//Add all records to an array
 		$rows = array();
 		while($row = mysql_fetch_array($result))
 		{
 		    $rows[] = $row;
+			
 		}
 
 		//Return result to jTable
 		$jTableResult = array();
 		$jTableResult['Result'] = "OK";
-		$jTableResult['TotalRecordCount'] = $recordCount;
 		$jTableResult['Records'] = $rows;
 		print json_encode($jTableResult);
 	}
