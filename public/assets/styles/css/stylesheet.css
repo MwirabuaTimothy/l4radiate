@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	height:750px;
+	overflow:hidden;
+	background-color:#CCC;
+	
+	margin: 0px;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+body {
+  margin: 0; 
+}
+
+
+#content{
+	text-align: center;
+	width:inherit;
+	height:auto;border
+	background-color:white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+ 
+.tr_size{
+	width: inherit;
+	height: 30px;
+	float: left;
+	margin: 2px 0 0 2px;
+}
+
+.td_size{
+	width: inherit;
+	min-width: 50px;
+	height: 20px;
+	float: left;
+	margin: 2px 0 0 2px;
+}
+
+.right-links{
+	margin:7px 0 0 2px;
+	float:left;
+	width:170px;
+	height:25px;
+	color:#000;
+	font-weight:100;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+/*#search_space{
+	width:90%;
+	height:30px;
+	float:left;
+	margin:2px 0 0 10px;
+	background-color:#fff;
+}*/
+	
+.left_side{
+	width:180px;
+	height:500px;
+	float:left;
+	margin-left: -110px;
+	margin-top: -20px;
+	text-decoration:none;
+	background-color: #CCC;
+}
+
+
+/*.header-wrapper header .top-nav li.my-account {
+	border-left:0px none;
+}
+.header-wrapper header .top-nav li a {
+	font-size:11px;
+	color:#fff;
+	float:left;
+	padding:9px 12px;
+}*/
+
+.left_content{
+	margin:15px 0 0 0px;
+	display:inline;
+	text-decoration:none;
+	width: 200px;
+	background-color: #CCC;
+}
+
+/*
+ list-style-type: none;
+*/
+
+.left_side .left_content li.left-link{
+	margin:20px 0 0 5px;
+	list-style-type: none;
+	display:list-item;
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:100;
+	float: left;
+	font-size: 18px;
+}
+
+a:hover{
+	color: white;
+}
+
+
+.left_side .left_content li a{
+	color:#fff;
+	float:left;
+	padding:9px 12px;	
+	text-decoration: none;
+}
+
+li.left_side .left_content a:hover{
+  text-decoration: none;
+  color:#FF0;
+  list-style:none;
+}
+
+a:visited{
+	background-color:#FFF;	
+}
+
+li.left_side a:hover
+{
+   color: green;
+}
+
+.center_content{
+	width:645px;
+	height:auto;
+	float:left;
+	margin:-20px 0 0 0px;
+	background-color:#FFF;
+}
+ 
+ 
+.user_title_space{
+	background-color:#666;
+	width:98%;
+	height:25px;
+	float:left;
+	margin:2px  0 0 5px;	
+
+}
+
+.title_text{
+	font-family: sans-serif;;
+	font-weight: 500;
+	color: #FFF;
+	float: left;
+	margin:inherit;
+	margin: 4px 0 0 5px;
+}
+
+.user_photo_space{
+	width:100px;
+	height:140px;
+	float:left;
+	margin:3px 0 0 5px;
+	background-color:#036;
+}
+
+.user_details_space{
+	background-color:#FFF;
+	width:350px;
+	height:auto;
+	float:left;
+	margin:2px  0 0 10px;	
+}
+
+.visible_text{
+	float: left;
+	margin: 2px 0 0 5px;
+	color: #000;
+	font-weight: 100px;
+}
+
+.db_text{
+
+}
+
+.edit_details{
+	background-color:#fff;
+	width:380px;
+	height:inherit;
+	float:left;
+	margin:2px  0 0 10px;
+}
+
+.black{
+	width: 260px;
+	height: 30px;
+	margin: 2px 0 0 25px;
+}
+
+
+.word{
+	width:120px;
+	height:25px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:300;
+	margin:3px 0 0 5px;
+	font-size:15px;
+	float:left;
+	color: #000;
+}
+	
+.textfield{
+	width:250px;
+	height:25px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:100;
+	margin:5px 0 0 5px;
+	font-size:12px;
+	border-spacing:2px;
+	border-color:#000;
+	
+}
+
+.course_table{
+	float:left;
+	margin:auto;
+	width:98.5%;
+	height:inherit;
+}
+
+.right_content{
+	width:150px;
+	height:auto;
+	margin:-20px -10px 0 20px; 
+	float:right;
+}
+
+.right_content ul{
+	
+}
+
+.progress_bar_title{
+	width:230px;
+	height:20px;
+	float:left;
+	margin:-15px  0 0 5px;
+}
+
+.progress_bar{
+	width:250px;
+	height:50px;
+	float:left;
+	margin:0px auto;
+	background-color:#666;
+}
+
+
+.popular_books_bar{
+	width:250px;
+	height:30px;
+	float:left;
+	margin:5px 0 0 0;
+	background-color:#666;
+}
+
+.popular_slider{
+	width:250px;
+	height:200px;
+	float:left;
+	margin:5px 0 0 0;
+	background-color:#666;
+}
+
+.popular_text{
+	width:250px;
+	height:200px;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+#footer{
+	background-color:#484444;
+	width:100%;
+	height:100px;
+	float:left;
+	margin-bottom:0px;
+}
+
+.left_bottom{
+	float:left;
+	width:600px;
+	height:80px;
+	margin:10px 0 0 10px;
+}
+
+
+.dbtitle{
+	font: 200;
+	float: left;
+}
+
+.dbdetails{
+	font-family: cursive;
+	float: left;
+	width:110px;
+	height:25px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:300;
+	margin:3px 0 0 5px;
+	font-size:15px;
+	color: #000;
+}

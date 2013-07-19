@@ -1,0 +1,19 @@
+<table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Year</th>
+            </tr>
+        </thead>
+
+        <tbody>
+           <?php foreach ($annivesaries as $annivesary): ?>
+                <tr>
+                    <td>
+                    	<?php echo link_to_route('annivesaries.show', "$annivesary->title annivesary was held in $annivesary->year", array($annivesary->id)); ?>
+                    	
+                    </td>
+                    <td><?php echo link_to_route('annivesaries.edit', 'Edit', array($annivesary->id), array('class' => 'btn btn-info')); ?></td>
+                </tr>
+ 			<?php endforeach; ?>
+        </tbody>
+    </table>

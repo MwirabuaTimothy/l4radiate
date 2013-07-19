@@ -1,0 +1,87 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Home
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('toplinks2'); ?>
+  <?php if (Auth::check()): ?>
+      <li>Logged in as <?php echo Auth::user()->fullName(); ?></li> |
+      <li>College <?php echo Auth::user()->collegeName(); ?></li> |
+      <li <?php echo (Request::is('mybooks') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('mybooks'); ?>">My Books</a></li>| 
+      <li <?php echo (Request::is('account') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account'); ?>">My Account</a></li> | 
+      <li><a href="<?php echo URL::to('account/logout'); ?>">Log Out</a></li>
+  <?php else: ?>
+      <li <?php echo (Request::is('mybooks') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('mybooks'); ?>">My Books</a></li>
+      <li <?php echo (Request::is('account/login') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/login'); ?>">Login</a></li>
+      <li <?php echo (Request::is('account/register') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/register'); ?>">Register</a></li>
+  <?php endif; ?>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+<!-- replace the content below to suit your page content -->
+
+
+<?php if(isset($data[0]["ItemAttributes"]["Title"])): ?>
+<ul id="searchresults">
+
+  <?php foreach($data as $item): ?>
+    <li>
+    	<span class="bookimage">
+    		<?php if(!isset($item["MediumImage"]["URL"])): ?>
+    		Image not Found
+    		<?php else: ?>
+    		<img src="<?php echo $item["MediumImage"]["URL"]; ?>" />
+    		<?php endif; ?>
+    	</span>
+    	<span class="bookdata">
+    		<h4><?php echo $item["ItemAttributes"]["Title"]; ?></h4>
+    		<!-- <?php if(isset($item["ItemAttributes"]["Author"])): ?>
+    			<p><?php echo var_dump($item["ItemAttributes"]["Author"]); ?></p>
+    		<?php elseif(isset($item["ItemAttributes"]["Creator"])): ?>
+    			<p><?php echo var_dump($item["ItemAttributes"]["Creator"]); ?></p>
+    		<?php else: ?>
+    			Unknown
+    		<?php endif; ?> -->
+    		<?php if(isset( $item["ItemAttributes"]["Binding"])): ?>
+    			<p>Binding: <?php echo $item["ItemAttributes"]["Binding"]; ?></p>
+    		<?php else: ?>
+    			Unknown
+    		<?php endif; ?>
+    		<?php if(isset( $item["ItemAttributes"]["ListPrice"]["FormattedPrice"] )): ?>
+    			<p>Price: <?php echo $item["ItemAttributes"]["ListPrice"]["FormattedPrice"]; ?></p>
+    		<?php else: ?>
+    			Price unspecified
+    		<?php endif; ?>
+    	</span>
+    	<!-- <span class="bookactions"><?php echo $item["ItemLinks"]["ItemLink"][3]["URL"]; ?></span>   -->
+    	
+    </li>
+  <?php endforeach; ?>
+
+</ul>
+
+<?php else: ?>
+
+ <?php echo printf($data); ?>
+
+<?php endif; ?>
+
+
+
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/searchresults.css'); ?> ">
+ 
+
+<?php $__env->stopSection(); ?>
+
+
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

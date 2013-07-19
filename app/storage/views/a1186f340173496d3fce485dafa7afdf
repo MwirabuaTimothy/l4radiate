@@ -1,0 +1,88 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+<!-- replace the content below to suit your page content -->
+
+
+<?php if(isset($data[0]["ItemAttributes"]["Title"])): ?>
+
+        <ul id="searchresults">
+
+          <?php foreach($data as $item): ?>
+            <li>
+            	<span class="bookimage">
+            		<?php if(!isset($item["MediumImage"]["URL"])): ?>
+            		Image not Found
+            		<?php else: ?>
+            		<img src="<?php echo $item["MediumImage"]["URL"]; ?>" />
+            		<?php endif; ?>
+            	</span>
+            	<span class="bookdata">
+            		<h4><?php echo $item["ItemAttributes"]["Title"]; ?></h4>
+            		<!-- <?php if(isset($item["ItemAttributes"]["Author"])): ?>
+            			<p><?php echo var_dump($item["ItemAttributes"]["Author"]); ?></p>
+            		<?php elseif(isset($item["ItemAttributes"]["Creator"])): ?>
+            			<p><?php echo var_dump($item["ItemAttributes"]["Creator"]); ?></p>
+            		<?php else: ?>
+            			Unknown
+            		<?php endif; ?> -->
+            		<?php if(isset( $item["ItemAttributes"]["Binding"])): ?>
+            			<p>Binding: <?php echo $item["ItemAttributes"]["Binding"]; ?></p>
+            		<?php else: ?>
+            			Unknown
+            		<?php endif; ?>
+            		<?php if(isset( $item["ItemAttributes"]["ListPrice"]["FormattedPrice"] )): ?>
+            			<p>Price: <?php echo $item["ItemAttributes"]["ListPrice"]["FormattedPrice"]; ?></p>
+            		<?php else: ?>
+            			Price unspecified
+            		<?php endif; ?>
+            	</span>
+            	<span class="bookactions">
+            		<a id="view" href="<?php echo $item["DetailPageURL"]; ?>">View On Amazon</a>
+            		<!-- <a href="<?php echo $item["ItemLinks"]["ItemLink"][3]["URL"]; ?>">Add To Cart</a> -->
+                    <form id="addtocart" method="GET" action="http://www.amazon.com/gp/aws/cart/add.html">
+                        <input type="hidden" name="AssociateTag" value="6345-8081-7310"/>
+                        <input type="hidden" name="SubscriptionId" value="AKIAJCMQDVYRM6ZS674A"/> 
+                        <input type="hidden" name="ASIN.1" value="<?php echo $item["ASIN"]; ?>"/><br/>
+                        <input type="hidden" name="Quantity.1" value="1"/><br/>
+                        <input type="image" name="add" value="Buy from Amazon.com" border="0" 
+                         alt="Buy from Amazon.com" src="http://images.amazon.com/images/G/01/associates/add-to-cart.gif">
+                    </form> 
+                    <span class="blue">
+                        <a id="bookshelf" class="btn btn-primary btn-small" href="<?php echo $item["ItemLinks"]["ItemLink"][3]["URL"]; ?>">Add To Bookshelf</a>
+                        <a id="wishlist" class="btn btn-primary btn-small" href="<?php echo $item["ItemLinks"]["ItemLink"][3]["URL"]; ?>">Add To Wishlist</a>
+                    </span>
+            	</span>  
+            	
+            </li>
+          <?php endforeach; ?>
+
+        </ul>
+<?php else: ?>
+
+ <?php echo printf($data); ?>
+
+<?php endif; ?>
+
+
+
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/searchresults.css'); ?> ">
+ 
+
+<?php $__env->stopSection(); ?>
+
+
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

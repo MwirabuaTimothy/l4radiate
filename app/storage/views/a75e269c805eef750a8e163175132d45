@@ -1,0 +1,42 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+<!-- replace the content below to suit your page content -->
+
+
+<?php if(isset($data[0]["ItemAttributes"]["Title"])): ?>
+    <ul id="searchresults">
+        <?php foreach($data as $item): ?>
+        <li>
+            <?php echo var_dump($item); ?>
+        </li>
+        <?php endforeach; ?>
+    </ul>
+
+<?php else: ?>
+
+ <?php echo printf($data); ?>
+
+<?php endif; ?>
+
+
+
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/home-searchsingle.css'); ?> ">
+ 
+<?php $__env->stopSection(); ?>
+
+
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,103 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Account Login
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('toplinks2'); ?>
+  <?php if (Auth::check()): ?>
+      <li>Logged in as <?php echo Auth::user()->fullName(); ?></li> |
+      <li>College <?php echo Auth::user()->collegeName(); ?></li> |
+      <li <?php echo (Request::is('mybooks') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('mybooks'); ?>">My Books</a></li>| 
+      <li <?php echo (Request::is('account') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account'); ?>">My Account</a></li> | 
+      <li><a href="<?php echo URL::to('account/logout'); ?>">Log Out</a></li>
+  <?php else: ?>
+      <li <?php echo (Request::is('mybooks') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('mybooks'); ?>">My Books</a></li>
+      <li <?php echo (Request::is('account/login') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/login'); ?>">Login</a></li>
+      <li <?php echo (Request::is('account/register') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/register'); ?>">Register</a></li>
+  <?php endif; ?>
+<?php $__env->stopSection(); ?>
+
+	<!-- <?php $__env->startSection('toplinks2'); ?>
+		<?php if (Auth::check()): ?>
+		    <li class="navbar-text">Logged in as <?php echo Auth::user()->firstname(); ?></li>
+		    <li class="divider-vertical"></li>
+		    <li <?php echo (Request::is('account') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account'); ?>">Account</a></li>
+		    <li><a href="<?php echo URL::to('account/logout'); ?>">Logout</a></li>
+	    <?php else: ?>
+		    <li <?php echo (Request::is('account/login') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/login'); ?>">Login</a></li>
+		    <li <?php echo (Request::is('account/register') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/register'); ?>">Register</a></li>
+		<?php endif; ?>
+	<?php $__env->stopSection(); ?> -->
+
+<?php /*  Content  */ ?>
+<?php $__env->startSection('content'); ?>
+<div class="page-header">
+	<h1>Signup</h1>
+</div>
+<form method="post" action="" class="form-horizontal">
+	<!-- CSRF Token -->
+	<input type="hidden" name="csrf_token" id="csrf_token" value="<?php echo Session::getToken(); ?>" />
+
+	<!-- First Name -->
+	<div class="control-group <?php echo $errors->has('first_name') ? 'error' : ''; ?>">
+		<label class="control-label" for="first_name">First Name</label>
+		<div class="controls">
+			<input type="text" name="first_name" id="first_name" value="<?php echo Request::old('first_name'); ?>" />
+			<?php echo $errors->first('first_name', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ first name -->
+
+	<!-- Last Name -->
+	<div class="control-group <?php echo $errors->has('last_name') ? 'error' : ''; ?>">
+		<label class="control-label" for="last_name">Last Name</label>
+		<div class="controls">
+			<input type="text" name="last_name" id="last_name" value="<?php echo Request::old('last_name'); ?>" />
+			<?php echo $errors->first('last_name', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ last name -->
+
+	<!-- Email -->
+	<div class="control-group <?php echo $errors->has('email') ? 'error' : ''; ?>">
+		<label class="control-label" for="email">Email</label>
+		<div class="controls">
+			<input type="text" name="email" id="email" value="<?php echo Request::old('email'); ?>" />
+			<?php echo $errors->first('email', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ email -->
+
+	<!-- Password -->
+	<div class="control-group <?php echo $errors->has('password') ? 'error' : ''; ?>">
+		<label class="control-label" for="password">Password</label>
+		<div class="controls">
+			<input type="password" name="password" id="password" value="" />
+			<?php echo $errors->first('password', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ password -->
+
+	<!-- Password Confirm -->
+	<div class="control-group <?php echo $errors->has('password_confirmation') ? 'error' : ''; ?>">
+		<label class="control-label" for="password_confirmation">Password Confirm</label>
+		<div class="controls">
+			<input type="password" name="password_confirmation" id="password_confirmation" value="" />
+			<?php echo $errors->first('password_confirmation', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ password confirm -->
+
+	<!-- Signup button -->
+	<div class="control-group">
+		<div class="controls">
+			<button type="submit" class="btn">Signup</button>
+		</div>
+	</div>
+	<!-- ./ signup button -->
+</form>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

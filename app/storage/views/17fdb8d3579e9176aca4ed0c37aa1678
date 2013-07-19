@@ -1,0 +1,84 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Account Login
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+<div class="page-header">
+	<h1>Signup</h1>
+</div>
+<form method="post" action="" class="form-horizontal">
+	<!-- CSRF Token -->
+	<input type="hidden" name="csrf_token" id="csrf_token" value="<?php echo Session::getToken(); ?>" />
+
+	<!-- First Name -->
+	<div class="control-group <?php echo $errors->has('firstname') ? 'error' : ''; ?>">
+		<label class="control-label" for="firstname">First Name</label>
+		<div class="controls">
+			<input type="text" name="firstname" id="firstname" value="<?php echo Request::old('firstname'); ?>" />
+			<?php echo $errors->first('firstname', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ first name -->
+
+	<!-- Last Name -->
+	<div class="control-group <?php echo $errors->has('lastname') ? 'error' : ''; ?>">
+		<label class="control-label" for="lastname">Last Name</label>
+		<div class="controls">
+			<input type="text" name="lastname" id="lastname" value="<?php echo Request::old('lastname'); ?>" />
+			<?php echo $errors->first('lastname', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ last name -->
+
+	<!-- Email -->
+	<div class="control-group <?php echo $errors->has('email') ? 'error' : ''; ?>">
+		<label class="control-label" for="email">Email</label>
+		<div class="controls">
+			<input type="text" name="email" id="email" value="<?php echo Request::old('email'); ?>" />
+			<?php echo $errors->first('email', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ email -->
+
+	<!-- Password -->
+	<div class="control-group <?php echo $errors->has('password') ? 'error' : ''; ?>">
+		<label class="control-label" for="password">Password</label>
+		<div class="controls">
+			<input type="password" name="password" id="password" value="" />
+			<?php echo $errors->first('password', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ password -->
+
+	<!-- Password Confirm -->
+	<div class="control-group <?php echo $errors->has('password_confirmation') ? 'error' : ''; ?>">
+		<label class="control-label" for="password_confirmation">Password Confirm</label>
+		<div class="controls">
+			<input type="password" name="password_confirmation" id="password_confirmation" value="" />
+			<?php echo $errors->first('password_confirmation', '<span class="help-inline">:message</span>'); ?>
+		</div>
+	</div>
+	<!-- ./ password confirm -->
+
+	<!-- Signup button -->
+	<div class="control-group">
+		<div class="controls">
+			<button type="submit" class="btn">Signup</button>
+		</div>
+	</div>
+	<!-- ./ signup button -->
+</form>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/account-register.css'); ?> ">
+ 
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
