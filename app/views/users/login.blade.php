@@ -6,12 +6,26 @@
 :: Account Login
 @stop
 
+@section('assets')
+	<link rel="stylesheet" href="{{ asset('assets/styles/css/login-page.css')}} ">
+@stop
+
+
 @section('content')
-<div class="page-header">
+<!-- <div class="page-header">
 	<h1>Login into your account</h1>
-</div>
+</div> -->
+  <div class="social-signin">
+    <div id="facebook_connect"><a href="/facebook/connect"></a></div>
+    <div id="twitter_signin"><a href="/twitter/signin"></a></div>
+  </div>
 <form method="post" action="" class="form-horizontal">
 	<!-- CSRF Token -->
+	<fieldset>
+		<legend>
+			<h3 class="gradient-light">Sign in</h3>
+		</legend>
+		<p>Welcome back to BookCheetah. Log in to your account so that you can access your bookshelf and wishlist.</p>
 	<input type="hidden" name="csrf_token" id="csrf_token" value="{{ Session::getToken() }}" />
 
 	<!-- Email -->
@@ -34,6 +48,7 @@
 	</div>
 	<!-- ./ password -->
 
+	<p><a href="/forgot_password" class="a-forgot-password">Forgot your password?</a></p>
 	<!-- Login button -->
 	<div class="control-group">
 		<div class="controls">
@@ -41,7 +56,10 @@
 		</div>
 	</div>
 	<!-- ./ login button -->
+	</fieldset>
 </form>
+
+
 @stop
 
 

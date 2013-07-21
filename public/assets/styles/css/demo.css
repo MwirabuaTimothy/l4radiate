@@ -1,0 +1,161 @@
+body {background:#fff; color:#333; font: 12px/22px verdana, arial, sans-serif; height:100%; margin:0 auto; width:100%;}
+h1 {color:#3a6d8c; font-size:34px; line-height:40px; margin:0;}
+h3 {color:#3a6d8c; font-size:22px; line-height:26px; font-weight:normal; margin:0 0 8px 0;}
+img {border:0;}
+#logo {margin-bottom:20px; width:300px;}
+#logo h1 {color:#666; letter-spacing:-1px; font-weight:normal;}
+#logo h1 span {color:#444; font-weight:bold;}
+#logo .title {color:#999; font-size:12px;}
+#container {margin:0 auto; padding-top:20px; width:800px;}
+#content {border-bottom:1px dotted #999; border-top:1px dotted #999; padding:20px 0;}
+#footer {clear:left; color:#888; margin:20px 0;}
+#footer a:link, #footer a:visited {color:#888; text-decoration:none;}
+#footer a:hover {color:#333; text-decoration:underline;}
+
+.payment_opt{
+	font-size:18px;
+	width:250px;
+	height:25px;
+	color:#FFF;
+	font-weight:bolder;
+	margin:2px 0 0 180px;
+	float:left;	
+}
+
+.card_num{
+	font-size:18px;
+	width:250px;
+	height:25px;
+	color:#FFF;
+	font-weight:bolder;
+	margin:2px 0 0 200px;
+	float:left;
+}
+	
+	
+.dark_bg{
+	background-color:#9d181b;
+	width:200px;
+	height:100px;
+	float:left;
+	margin:5px 0 0 100px;
+	border:2px color:#333;
+}
+
+.payment_prod_num{
+	float:left;
+	margin:42px 0 0 55px;
+	width:100px;
+	height:20px;
+	margin:0 0 0 30px;
+	color:#FFF;
+	font-weight:bolder;
+}
+
+.payment_prize_num{
+	float:left;
+	margin:22px 0 0 25px;
+	width:220px;
+	height:20px;
+	color:#000;
+	font-weight:bolder;
+}
+
+.amt_qua_space{
+	float:left;
+	margin:22px 0 0 50px;
+	width:420px;
+	height:40px;
+}
+
+.fill_value{
+	float:left;
+	margin:22px 0 0 25px;
+	width:50px;
+	height:30px;
+	border:3px color:black;
+	background-color:#666;
+}
+
+.fill_qua{
+	float:left;
+	margin:22px 0 0 25px;
+	width:100px;
+	height:30px;
+	font-size:18px;
+	color:#000;
+	font-weight:bolder;
+}
+
+.modal_payment_btn{
+	background-image:url(../images/payment_addtocart_btn.png);
+	background-repeat:no-repeat;
+	width:152px;
+	height:46px;
+	float:left;
+	margin:20px 0 0 150px;
+}
+
+.card_num_fill_space{
+	float:left;
+	margin:12px 0 0 130px;
+	width:550px;
+	height:40px;
+	
+}
+
+.card_fill{
+	background-image:url(../images/small_card_img.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin:2px 0 0 5px;
+	width:90px;
+	height:30px;
+}
+
+.card_mobile_num_text{
+	font-size:17px;
+	width:550px;
+	height:25px;
+	color:#FFF;
+	font-weight:bolder;
+	margin:20px 0 0 10px;
+	float:left;
+	background-color:#;
+}
+
+.num_stater{
+	font-size:17px;
+	width:70px;
+	height:25px;
+	color:#FFF;
+	font-weight:bolder;
+	margin:3px 0 0 0px;
+	float:left;
+}
+
+.card_small_fill_space{
+	float:left;
+	margin:12px 0 0 100px;
+	width:550px;
+	height:40px;
+}
+
+.small_card_fill{
+	background-image:url(../images/small_card_img.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin:2px 0 0 2px;
+	width:95px;
+	height:27px;
+}
+
+
+.send_pin_btn{
+	background-image:url(../images/send_pin_btn.png);
+	background-repeat:no-repeat;
+	width:220px;
+	height:40px;
+	float:left;
+	margin:40px 0 0 170px;
+}

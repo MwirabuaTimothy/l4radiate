@@ -1,0 +1,264 @@
+
+.gradient-title {
+	background: #4f5153;
+	color: #fff;
+	display: inline;
+	font-size: 16px;
+	height: 30px;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.7);
+	border: 1px solid;
+	border-bottom-color: #333;
+	border-right-color: #313131;
+	border-left-color: #7d7d7d;
+	border-top-color: #fff;
+	padding: 1px 18px 6px;
+	font-family: 'Trebuchet MS',Helvetica,'sans-serif';
+	position: absolute;
+	top: -10px;
+	left: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 0px 2px rgba(0,0,0,70);
+	-moz-box-shadow: 1px 0px 2px rgba(0,0,0,70);
+	box-shadow: 1px 0px 2px rgba(0,0,0,70);
+	background-color: mix(#bfc1c3,#4f5153,60%);
+	background-image: -moz-linear-gradient(top,#bfc1c3,#4f5153 90%);
+	background-image: -ms-linear-gradient(top,#bfc1c3,#4f5153 90%);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#bfc1c3),to(#4f5153 90%));
+	background-image: -webkit-linear-gradient(top,#bfc1c3,#4f5153 90%);
+	background-image: -o-linear-gradient(top,#bfc1c3,#4f5153 90%);
+	background-image: linear-gradient(top,#bfc1c3,#4f5153 90%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BFC1C3',endColorstr='#4F5153');
+}
+
+.facebook-find {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	z-index: 9999;
+}
+
+.content{
+  padding: 0px;
+
+}
+
+
+.a-content {
+background-color: #fff;
+border: 1px solid #999;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+position: relative;
+padding: 35px;
+width: auto;
+min-height: 300px;
+clear: both;
+}
+
+.a-slot{
+	margin-top: 20px;
+}
+
+h3.gradient-light, h3.gradient-yellow {
+display: inline;
+padding: 3px 8px;
+font-size: 12px;
+font-weight: normal;
+width: auto;
+font-family: 'Trebuchet MS',Helvetica,'sans-serif';
+border: 1px solid #fff;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0px 0px 2px rgba(100,100,100,70);
+-moz-box-shadow: 0px 0px 2px rgba(100,100,100,70);
+box-shadow: 0px 0px 2px rgba(100,100,100,70);
+}
+
+.facebook-find {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	z-index: 9999;
+}
+
+form fieldset {
+	border: 1px solid #dcdcdc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding-bottom: 20px;
+	position: relative;
+	margin: 10px 0 20px;
+}
+
+fieldset {
+	display: block;
+	-webkit-margin-start: 2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-webkit-padding-start: 0.75em;
+	-webkit-padding-end: 0.75em;
+	-webkit-padding-after: 0.625em;
+	border: 2px groove threedface;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	min-width: -webkit-min-content;
+}
+
+form fieldset legend {
+	margin-left: 7px;
+	margin-bottom: 7px;
+	border:2px;
+}
+
+legend {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 21px;
+	line-height: 40px;
+	color: #333333;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+legend {
+	display: block;
+	-webkit-padding-start: 2px;
+	-webkit-padding-end: 2px;
+	border: none;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+}
+
+.ui-button {
+display: inline-block;
+position: relative;
+padding: 0;
+margin-right: .1em;
+text-decoration: none !important;
+cursor: pointer;
+text-align: center;
+zoom: 1;
+overflow: visible;
+}
+
+.control-group{
+
+	float: left;
+	width: 700px;
+}
+
+.form-horizontal .control-group {
+margin-bottom: 20px;
+width: 700px;
+}
+
+/*.form-horizontal .controls {
+	margin-left: 180px;
+	width: 400px;
+}*/
+
+/*This the dialog CSS*/
+
+element.style {
+display: block;
+z-index: 1002;
+outline: 0px;
+height: auto;
+width: 500px;
+top: 529px;
+left: 421px;
+}
+
+.ui-dialog {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.ui-draggable .ui-dialog-titlebar {
+cursor: move;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+padding: .5em 1em .3em;
+position: relative;
+}
+
+.ui-dialog-titlebar {
+color: #0f65ab;
+background: transparent;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+border-left-width: 0;
+border-top-width: 0;
+border-right-width: 0;
+border-bottom: 1px solid #e9e9e9;
+margin-bottom: 0px;
+}
+
+.ui-dialog .ui-dialog-content {
+position: relative;
+border: 0;
+padding: .5em 1em;
+background: none;
+overflow: auto;
+zoom: 1;
+
+
+.ui-dialog .ui-dialog-buttonpane {
+text-align: left;
+border-width: 1px 0 0 0;
+background-image: none;
+margin: .5em 0 0 0;
+padding: .3em 1em .5em .4em;
+}
+
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+float: right;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+margin: .5em .4em .5em 0;
+cursor: pointer;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+position: absolute;
+right: .3em;
+top: 50%;
+width: 19px;
+margin: -10px 0 0 0;
+padding: 1px;
+height: 18px;
+}
+
+.ui-widget-content {
+border: 1px solid #aaa;
+background: #fff url(/apostrophePlugin/css/ui-apostrophe/images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+color: #222;
+}
+
+.ui-widget-header .ui-icon {
+background-image: url(http://localhost:8000/assets/images/x.jpg);
+}

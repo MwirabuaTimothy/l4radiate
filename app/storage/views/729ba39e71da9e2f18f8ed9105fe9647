@@ -5,12 +5,26 @@
 :: Account Login
 <?php $__env->stopSection(); ?>
 
+<?php $__env->startSection('assets'); ?>
+	<link rel="stylesheet" href="<?php echo asset('assets/styles/css/login-page.css'); ?> ">
+<?php $__env->stopSection(); ?>
+
+
 <?php $__env->startSection('content'); ?>
-<div class="page-header">
+<!-- <div class="page-header">
 	<h1>Login into your account</h1>
-</div>
+</div> -->
+  <div class="social-signin">
+    <div id="facebook_connect"><a href="/facebook/connect"></a></div>
+    <div id="twitter_signin"><a href="/twitter/signin"></a></div>
+  </div>
 <form method="post" action="" class="form-horizontal">
 	<!-- CSRF Token -->
+	<fieldset>
+		<legend>
+			<h3 class="gradient-light">Sign in</h3>
+		</legend>
+		<p>Welcome back to BookCheetah. Log in to your account so that you can access your bookshelf and wishlist.</p>
 	<input type="hidden" name="csrf_token" id="csrf_token" value="<?php echo Session::getToken(); ?>" />
 
 	<!-- Email -->
@@ -33,6 +47,7 @@
 	</div>
 	<!-- ./ password -->
 
+	<p><a href="/forgot_password" class="a-forgot-password">Forgot your password?</a></p>
 	<!-- Login button -->
 	<div class="control-group">
 		<div class="controls">
@@ -40,7 +55,29 @@
 		</div>
 	</div>
 	<!-- ./ login button -->
+	</fieldset>
 </form>
+
+<fieldset>
+		<legend>
+			<h3 class="gradient-light">Sign in</h3>
+		</legend>
+    		<div class="flash-message alert-info"></div>
+		<p>Welcome back to BookCheetah. Log in to your account so that you can access your bookshelf and wishlist.</p>
+  		
+    	<label for="signin_username">Username or email</label>
+    	<input type="text" name="signin[username]" class="large" id="signin_username">
+    		
+    	<label for="signin_password">Password</label>
+    	<input type="password" name="signin[password]" class="large" id="signin_password">
+    			
+		          <p><a href="/forgot_password" class="a-forgot-password">Forgot your password?</a></p>
+    
+    
+      <div class="submit">
+        <input type="submit" class="button a-btn big a-submit ui-button ui-widget ui-state-default ui-corner-all" value="Submit" role="button" aria-disabled="false">
+      </div>
+    </fieldset>
 <?php $__env->stopSection(); ?>
 
 

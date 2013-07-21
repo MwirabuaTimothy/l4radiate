@@ -33,6 +33,7 @@ Route::get('termsofuse', function(){ return View::make('termsofuse');});
 Route::get('customerservice', function(){ return View::make('customerservice');});
 Route::get('template', function(){return View::make('template');});
 Route::get('blog', function(){ return View::make('blog');});
+Route::get('contactus', function(){ return View::make('contactus');});
 
 Route::resource('forums', 'ForumsController');
 Route::resource('colleges', 'CollegesController');

@@ -1,0 +1,1530 @@
+[2013-07-20 08:23:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:24:24] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:25:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:42:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:46:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:52:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:52:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:55:12] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:56:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 08:57:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:01:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:02:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:02:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:02:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:14:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:17:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:18:15] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:18:45] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:20:22] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:23:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:29:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:30:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:31:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:41:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:43:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:43:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 09:43:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 10:16:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 10:16:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 11:44:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:30] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:31] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:48] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:07:52] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:20] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:22] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:49] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:08:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:11] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:40] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:09:41] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:13] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:16] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:35] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:38] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:10:39] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:20:04] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:20:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:24:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:24:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:25:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:25:21] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:39:08] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:39:09] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:39:43] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:39:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:46:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:46:05] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:48:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:48:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:51:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:51:32] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:53:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:54:06] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:54:23] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:55:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:55:14] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:55:53] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:55:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 15:57:01] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 16:00:44] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 16:00:46] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []
+[2013-07-20 16:06:28] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(138): call_user_func_array(Array, Array)
+#2 C:\wamp\www\l4radiate\vendor\laravel\framework\src\Illuminate\Routing\Controllers\Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 C:\wamp\www\l4radiate\bootstrap\compiled.php(4751): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 C:\wamp\www\l4radiate\bootstrap\compiled.php(7820): call_user_func_array(Object(Closure), Array)
+#6 C:\wamp\www\l4radiate\bootstrap\compiled.php(7807): Illuminate\Routing\Route->callCallable()
+#7 C:\wamp\www\l4radiate\bootstrap\compiled.php(4762): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 C:\wamp\www\l4radiate\bootstrap\compiled.php(481): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 C:\wamp\www\l4radiate\bootstrap\compiled.php(470): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 C:\wamp\www\l4radiate\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 C:\wamp\www\l4radiate\server.php(19): require_once('C:\wamp\www\l4r...')
+#12 {main} [] []

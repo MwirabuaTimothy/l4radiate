@@ -160,8 +160,8 @@
             <div class="content">
                 <?php echo $__env->yieldContent('content'); ?>
                 <!-- ./ content -->
-                <div class="fb-like" data-href="http://bookcheetah.com" data-send="false" 
-                data-width="450" data-show-faces="false"></div>
+                <!-- <div class="fb-like" data-href="http://bookcheetah.com" data-send="false" 
+                data-width="450" data-show-faces="false"></div> -->
             </div>
 
         </div>

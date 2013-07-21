@@ -5,17 +5,49 @@
 :: Account Login
 <?php $__env->stopSection(); ?>
 
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/register.css'); ?> ">
+
+ <!-- <link href='../../../public/assets/styles/css/demo.css' rel='stylesheet' /> -->
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/demo.css'); ?>">
+
+<!-- Contact Form CSS files -->
+<!-- <link href='../../../public/assets/styles/css/basic.css' rel='stylesheet' /> -->
+<link rel="stylesheet" href="<?php echo asset('assets/styles/css/basic.css'); ?>">
+
+<!--<link type='text/css' href='css/style.css' rel='stylesheet' media='screen' />-->
+<script src="<?php echo asset('assets/scripts/js/plugins.js'); ?>"></script>
+
+<!-- Load jQuery, SimpleModal and Basic JS files -->
+<script src="<?php echo asset('assets/scripts/js/plugins.js'); ?>"></script>
+<script src="<?php echo asset('assets/scripts/js/jquery.js'); ?>"></script>
+<script src="<?php echo asset('assets/scripts/js/jquery.simplemodal.js'); ?>"></script>
+
+<script src="<?php echo asset('assets/scripts/js/basic.js'); ?>"></script>
+  <link rel="stylesheet" href="<?php echo asset('assets/styles/css/bookcheetah.css'); ?> ">
+<?php $__env->stopSection(); ?>
+
 <?php $__env->startSection('content'); ?>
-<div class="page-header">
-	<h1>Signup</h1>
-</div>
+
+<div class="a-content clearfix">
+			
+
+<h2 class="gradient-title">Join the BookCheetah Marketplace</h2>
+
 <form method="post" action="" class="form-horizontal">
+
+  <fieldset>
+  	<legend><h3 class="gradient-light">Register Now ( * Required )</h3></legend>
+
 	<!-- CSRF Token -->
 	<input type="hidden" name="csrf_token" id="csrf_token" value="<?php echo Session::getToken(); ?>" />
 
 	<!-- First Name -->
 	<div class="control-group <?php echo $errors->has('firstname') ? 'error' : ''; ?>">
-		<label class="control-label" for="firstname">First Name</label>
+		<label class="control-label" for="firstname">First Name*</label>
 		<div class="controls">
 			<input type="text" name="firstname" id="firstname" value="<?php echo Request::old('firstname'); ?>" />
 			<?php echo $errors->first('firstname', '<span class="help-inline">:message</span>'); ?>
@@ -25,7 +57,7 @@
 
 	<!-- Last Name -->
 	<div class="control-group <?php echo $errors->has('lastname') ? 'error' : ''; ?>">
-		<label class="control-label" for="lastname">Last Name</label>
+		<label class="control-label" for="lastname">Last Name*</label>
 		<div class="controls">
 			<input type="text" name="lastname" id="lastname" value="<?php echo Request::old('lastname'); ?>" />
 			<?php echo $errors->first('lastname', '<span class="help-inline">:message</span>'); ?>
@@ -35,7 +67,7 @@
 
 	<!-- Email -->
 	<div class="control-group <?php echo $errors->has('email') ? 'error' : ''; ?>">
-		<label class="control-label" for="email">Email</label>
+		<label class="control-label" for="email">Email*</label>
 		<div class="controls">
 			<input type="text" name="email" id="email" value="<?php echo Request::old('email'); ?>" />
 			<?php echo $errors->first('email', '<span class="help-inline">:message</span>'); ?>
@@ -45,7 +77,7 @@
 
 	<!-- Password -->
 	<div class="control-group <?php echo $errors->has('password') ? 'error' : ''; ?>">
-		<label class="control-label" for="password">Password</label>
+		<label class="control-label" for="password">Password*</label>
 		<div class="controls">
 			<input type="password" name="password" id="password" value="" />
 			<?php echo $errors->first('password', '<span class="help-inline">:message</span>'); ?>
@@ -55,7 +87,7 @@
 
 	<!-- Password Confirm -->
 	<div class="control-group <?php echo $errors->has('password_confirmation') ? 'error' : ''; ?>">
-		<label class="control-label" for="password_confirmation">Password Confirm</label>
+		<label class="control-label" for="password_confirmation">Password Confirm*</label>
 		<div class="controls">
 			<input type="password" name="password_confirmation" id="password_confirmation" value="" />
 			<?php echo $errors->first('password_confirmation', '<span class="help-inline">:message</span>'); ?>
@@ -80,26 +112,64 @@
 		<div class="controls">
 			<input type="text" name="location" id="location" value="<?php echo Request::old('location'); ?>" />
 			<?php echo $errors->first('location', '<span class="help-inline">:message</span>'); ?>
+		
+
+		<!-- <button  class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+			<span class="btn btn-primary ui-button-text">Why your school is important</span>
+		</button> -->
+		<div id='basic-modal'> <a href="#" class='basic'>
+		    <button  class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+		            <span class="btn btn-primary ui-button-text">Why your school is important</span>
+		        </button>
+		    </a>
+		</div>
+
 		</div>
 	</div>
 	<!-- ./ location name -->
+	
+	</fieldset>
 
 	<!-- Signup button -->
 	<div class="control-group">
 		<div class="controls">
-			<button type="submit" class="btn">Signup</button>
+			<button class="btn btn-primary submitbook" type="submit" class="btn">Signup</button>
+			<!-- <input class="btn btn-primary submitbook" type="submit" value="Edit Profile" style="font-size: 15px;"> -->
 		</div>
 	</div>
 	<!-- ./ signup button -->
-</form>
+  
+ </form>
+
+ <div id="basic-modal-content">
+	<div class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-school-tip" style="display: block; z-index: 1002; outline: 0px; height: auto; width: 500px; top: 529px; left: 421px;">
+		<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-school-tip">Why your school is important</span>
+			<a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="school-tip" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 32.96875px; height: auto;">
+	<p>The goal of our service is to find your books locally, so that you can pick 
+    them up in person without waiting for them to ship.  Then you can inspect 
+    them in person before deciding to buy, and even arrange a swap, trade, loan, 
+    rental instead of a sale if both parties are willing
+  </p>
+  <p>
+    So if you'll tell us where you are, we can match you up with LOCAL people 
+    who have the books that you want, or want the books that you have.  You'll 
+    only be matched with areas that you indicate you are willing to consider.
+  </p>
+  <p>
+    So save on shipping costs and time, while eliminating the risk of getting 
+    something you don't really want.
+  </p>
+</div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+<div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">OK</span>
+</button>
+</div>
+</div>
+</div>
+ </div>
+</div>
+
 <?php $__env->stopSection(); ?>
 
 
-<?php $__env->startSection('assets'); ?>
-<!-- add your css and js here, dont add the jquery library again -->
-
- <link rel="stylesheet" href="<?php echo asset('assets/styles/css/account-register.css'); ?> ">
- 
-<?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

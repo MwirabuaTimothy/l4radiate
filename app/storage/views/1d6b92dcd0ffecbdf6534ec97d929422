@@ -1,14 +1,13 @@
-@extends('layouts.bookcheetah')
 
-{{-- Web site Title --}}
-@section('title')
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
 @parent
 :: Home
-@stop
+<?php $__env->stopSection(); ?>
 
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
 	<div class="a-content clearfix">
 			
@@ -92,8 +91,9 @@
       </div>    </div>   
 
 		</div>
-@stop
+<?php $__env->stopSection(); ?>
 
-@section('assets')
-	<link href="{{ asset('assets/styles/css/contactus.css') }}" rel="stylesheet" />
-@stop
+<?php $__env->startSection('assets'); ?>
+	<link href="<?php echo asset('assets/styles/css/contactus.css'); ?>" rel="stylesheet" />
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,20 @@
+.social-signin {
+text-align: right;
+}
+
+form fieldset legend {
+margin-left: 7px;
+margin-bottom: 7px;
+}
+
+legend {
+display: block;
+-webkit-padding-start: 2px;
+-webkit-padding-end: 2px;
+border: none;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+}

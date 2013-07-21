@@ -1,0 +1,61 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Home
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('content'); ?>
+
+<h3>Edit Forum</h3>
+<?php echo Form::model($forum, array('method' => 'PATCH', 'route' => array('forums.update', $forum->id))); ?>
+    <ul>
+        <li style="list-style: none;">
+            <?php echo Form::label('forum_title', 'Forum Title:'); ?>
+            <?php echo Form::text('forum_title'); ?>
+        </li>
+
+        <li style="list-style: none;">
+            <?php echo Form::label('forum_description', 'Forum Description:'); ?>
+            <?php echo Form::textarea('forum_description'); ?>
+        </li>
+
+        <li style="list-style: none;">
+            <?php echo Form::label('topics', 'Topics:'); ?>
+            <?php echo Form::input('number', 'topics'); ?>
+        </li style="list-style: none;">
+
+        <li style="list-style: none;">
+            <?php echo Form::label('posts', 'Posts:'); ?>
+            <?php echo Form::input('number', 'posts'); ?>
+        </li>
+
+        <li style="list-style: none;">
+            <?php echo Form::label('last_post', 'Last Post:'); ?>
+            <?php echo Form::text('last_post'); ?>
+        </li>
+
+        <li style="list-style: none;">
+            <?php echo Form::submit('Update', array('class' => 'btn btn-info')); ?>
+            <?php echo link_to_route('forums.show', 'Cancel', $forum->id, array('class' => 'btn')); ?>
+        </li>
+    </ul>
+<?php echo Form::close(); ?>
+
+<?php if ($errors->any()): ?>
+    <ul>
+        <?php echo implode('', $errors->all('<li class="error">:message</li>')); ?>
+    </ul>
+<?php endif; ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/forums-edit.css'); ?> ">
+ 
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

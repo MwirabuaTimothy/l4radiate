@@ -2,25 +2,22 @@
 <?php /*  Web site Title  */ ?>
 <?php $__env->startSection('title'); ?>
 @parent
-:: Account Login
+:: Home
 <?php $__env->stopSection(); ?>
 
-<?php $__env->startSection('toplinks2'); ?>
-	<?php if (Auth::check()): ?>
-		<li>Logged in as <?php echo Auth::user()->fullName(); ?></li> |
-		<li>College <?php echo Auth::user()->collegeName(); ?></li> |
-		<li>My Books</li> | 
-	    <li <?php echo (Request::is('account') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account'); ?>">My Account</a></li> | 
-	    <li><a href="<?php echo URL::to('account/logout'); ?>">Log Out</a></li>
-	<?php else: ?>
-		<li <?php echo (Request::is('account/login') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/login'); ?>">Login</a></li>
-	    <li <?php echo (Request::is('account/register') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('account/register'); ?>">Register</a></li>
-	<?php endif; ?>
-<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+<!-- replace the content below to suit your page content -->
 
-<?php $__env->startSection('css'); ?>
-
- <link rel="stylesheet" href="<?php echo asset('assets/styles/css/style.css'); ?> ">
 
 <?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/blog.css'); ?> ">
+ 
+<?php $__env->stopSection(); ?>
+
+
+
 <?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
