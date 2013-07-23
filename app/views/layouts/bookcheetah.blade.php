@@ -38,6 +38,19 @@
         <!-- ICO -->
         <link rel="shortcut icon" href="favicon.ico">
 
+        <!--  -->
+
+        <script type="text/javascript">var switchTo5x=true;</script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">stLight.options({publisher: "452a12de-ea14-4da4-aeca-ef5d5287927c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+    
+            <script>(function(){
+                    var uv=document.createElement('script');
+                    uv.type='text/javascript';
+                    uv.async=true;
+                    uv.src='//widget.uservoice.com/DaBJd20KGXiNvgpEJT8A.js';
+                    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()
+            </script>
 
     </head>
     <body>
@@ -61,8 +74,14 @@
                 <a href="{{ URL::to('forums') }}"><li>Forum</li></a> | 
                 <a href="{{ URL::to('blog') }}"><li>Blog</li></a> | 
                 <a href="{{ URL::to('contactus') }}"><li>Contact Us</li></a> | 
-                <a href="{{ URL::to('customerservice') }}"><li>Customer Service</li></a>
+                
+                <!-- A link to launch the Classic Widget -->
+                <a href="javascript:void(0)" data-uv-lightbox="classic_widget">Customer Service</a>
             </ul>
+
+<!-- <a href="javascript:void(0)" data-uv-lightbox="classic_widget" data-uv-mode="full" data-uv-primary-color="#cc6d00" data-uv-link-color="#007dbf" data-uv-default-mode="support" data-uv-forum-id="215869">
+    Feedback &amp; Support
+</a> -->
 
             <ul class="linkbar top2">
                 @if (Auth::check())
@@ -221,6 +240,25 @@
 
             </script>
 
+
+            <script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/DaBJd20KGXiNvgpEJT8A.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
+            <!-- A tab to launch the Classic Widget -->
+            <script>
+            UserVoice = window.UserVoice || [];
+            UserVoice.push(['showTab', 'classic_widget', {
+              mode: 'full',
+              primary_color: '#cc6d00',
+              link_color: '#007dbf',
+              default_mode: 'support',
+              forum_id: 215869,
+              tab_label: 'Feedback & Support',
+              tab_color: '#163fe3',
+              tab_position: 'middle-right',
+              tab_inverted: false
+            }]);
+            </script>
+
             <!-- page-specific assets-->
             @yield('assets')
 
@@ -244,12 +282,19 @@
                     <span class="social_text">Get in Touch...</span><br />
 
                     <ul class="social_buttons">
-                        <a href="http://www.facebook.com" target="_blank"><li class="fb_btn"></li></a>
+                        <!-- <a href="http://www.facebook.com" target="_blank"><li class="fb_btn"></li></a>
                         <a href="http://www.twitter.com" target="_blank"><li class="tw_btn"></li></a>
                         <a href="http://www.linkedin.com" target="_blank"><li class="li_btn"></li></a>
                         <a href="mailto:info@bookcheeetah.com" target="_blank"><li class="mail_btn"></li></a>
                         <a href="http://www.evernote.com" target="_blank"><li class="evernote_btn"></li></a>
-                        <a href="http://www.plus.google.com" target="_blank"><li class="gplus_btn"></li></a>
+                        <a href="http://www.plus.google.com" target="_blank"><li class="gplus_btn"></li></a> -->
+
+                        <span class='st_sharethis_large' displayText='ShareThis'></span>
+                        <span class='st_facebook_large' displayText='Facebook'></span>
+                        <span class='st_twitter_large' displayText='Tweet'></span>
+                        <span class='st_linkedin_large' displayText='LinkedIn'></span>
+                        <span class='st_pinterest_large' displayText='Pinterest'></span>
+                        <span class='st_email_large' displayText='Email'></span>
                     </ul>
                 </div>
             </div>

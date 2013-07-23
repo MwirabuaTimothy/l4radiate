@@ -10,15 +10,18 @@
 <?php $__env->stopSection(); ?>
 
 
+
 <?php $__env->startSection('content'); ?>
-<!-- <div class="page-header">
-	<h1>Login into your account</h1>
-</div> -->
+	
+<div class="a-content clearfix">
+			
+
+<div class="clearfix" id="a-signin">
   <div class="social-signin">
-    <div id="facebook_connect"><a href="/facebook/connect"></a></div>
+    <div id="facebook_connect"><a href="?provider=Facebook"></a></div>
     <div id="twitter_signin"><a href="/twitter/signin"></a></div>
   </div>
-<form method="post" action="" class="form-horizontal">
+  <form method="post" action="" class="form-horizontal">
 	<!-- CSRF Token -->
 	<fieldset>
 		<legend>
@@ -57,29 +60,15 @@
 	<!-- ./ login button -->
 	</fieldset>
 </form>
+</div>
 
-<fieldset>
-		<legend>
-			<h3 class="gradient-light">Sign in</h3>
-		</legend>
-    		<div class="flash-message alert-info"></div>
-		<p>Welcome back to BookCheetah. Log in to your account so that you can access your bookshelf and wishlist.</p>
-  		
-    	<label for="signin_username">Username or email</label>
-    	<input type="text" name="signin[username]" class="large" id="signin_username">
-    		
-    	<label for="signin_password">Password</label>
-    	<input type="password" name="signin[password]" class="large" id="signin_password">
-    			
-		          <p><a href="/forgot_password" class="a-forgot-password">Forgot your password?</a></p>
-    
-    
-      <div class="submit">
-        <input type="submit" class="button a-btn big a-submit ui-button ui-widget ui-state-default ui-corner-all" value="Submit" role="button" aria-disabled="false">
-      </div>
-    </fieldset>
+			
+</div>
+
+<div id="facebook">
+	<span class="button-signin-facebook"><div class="facebook_connect_wrap small"><a href="?provider=Facebook">Sign up with Facebook</a></div></span>
+</div>
 <?php $__env->stopSection(); ?>
-
 
 <?php $__env->startSection('assets'); ?>
 <!-- add your css and js here, dont add the jquery library again -->
@@ -87,5 +76,6 @@
  <link rel="stylesheet" href="<?php echo asset('assets/styles/css/account-login.css'); ?> ">
  
 <?php $__env->stopSection(); ?>
+
 
 <?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

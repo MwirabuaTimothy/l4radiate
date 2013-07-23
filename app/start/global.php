@@ -50,7 +50,12 @@ Log::useDailyFiles(storage_path().'/logs/'.$logFile);
 
 App::error(function(Exception $exception, $code)
 {
-	Log::error($exception);
+	// Log::error($exception);	
+	Route::get('error', function(){
+		 return View::make('error');
+	});
+
+	
 });
 
 /*
@@ -79,5 +84,13 @@ App::down(function()
 | definitions instead of putting them all in the main routes file.
 |
 */
+
+App::missing(function($exception)
+{
+    return Response::view('error', array(), 404);
+});
+
+// App::abort(401, 'You are not authorized.');
+
 
 require __DIR__.'/../filters.php';

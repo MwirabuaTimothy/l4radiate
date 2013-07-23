@@ -123,7 +123,7 @@
                     book:{
                         title: 'Book',
                         width:  '20%',
-                        create: false,
+                        create: false
                     },
                     created_at: {
                         title: 'Record date',
@@ -166,7 +166,7 @@
                     <a href="#"><li class="left-link">My Wishlist </li></a><br />
                     <a href="#"><li class="left-link">Get Cash Now</li></a><br />
                     <a href="#"><li class="left-link">Cheetah delivery</li></a><br />
-                    <a href="#"><li class="left-link">Support</li></a>
+                    <!-- <a href="#"><li class="left-link">Support</li></a> -->
                     
                 </ul>
             
@@ -175,9 +175,10 @@
 
             <div class="center_content">
                 <div class="user_title_space"><div class="title_text">User Details</div></div>
-                <div class="user_photo_space">
+                <div class="user_photo_space" style="background-color:white; float:left;">
                  
                  <div>Image</div>
+                 <a href="#"><div><input class="btn btn-primary submitbook" type="submit" value="Add Photo" style="font-size: 15px; float:left;"></div></a>
                 </div>
                 
                 <div class="user_details_space">

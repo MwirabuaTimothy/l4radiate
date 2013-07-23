@@ -11,15 +11,18 @@
 @stop
 
 
+
 @section('content')
-<!-- <div class="page-header">
-	<h1>Login into your account</h1>
-</div> -->
+	
+<div class="a-content clearfix">
+			
+
+<div class="clearfix" id="a-signin">
   <div class="social-signin">
-    <div id="facebook_connect"><a href="/facebook/connect"></a></div>
+    <div id="facebook_connect"><a href="?provider=Facebook"></a></div>
     <div id="twitter_signin"><a href="/twitter/signin"></a></div>
   </div>
-<form method="post" action="" class="form-horizontal">
+  <form method="post" action="" class="form-horizontal">
 	<!-- CSRF Token -->
 	<fieldset>
 		<legend>
@@ -58,10 +61,15 @@
 	<!-- ./ login button -->
 	</fieldset>
 </form>
+</div>
 
+			
+</div>
 
+<div id="facebook">
+	<span class="button-signin-facebook"><div class="facebook_connect_wrap small"><a href="?provider=Facebook">Sign up with Facebook</a></div></span>
+</div>
 @stop
-
 
 @section('assets')
 <!-- add your css and js here, dont add the jquery library again -->
@@ -69,3 +77,4 @@
  <link rel="stylesheet" href="{{ asset('assets/styles/css/account-login.css')}} ">
  
 @stop
+

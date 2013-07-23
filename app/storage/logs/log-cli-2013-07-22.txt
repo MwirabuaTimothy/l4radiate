@@ -1,0 +1,41 @@
+[2013-07-22 10:07:36] log.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php:523
+Stack trace:
+#0 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(561): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(188): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\wamp\www\l4radiate\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2013-07-22 10:07:58] log.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php:523
+Stack trace:
+#0 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(561): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(188): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\wamp\www\l4radiate\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2013-07-22 10:08:09] log.ERROR: exception 'InvalidArgumentException' with message 'Command "bundle" is not defined.' in C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php:617
+Stack trace:
+#0 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(188): Symfony\Component\Console\Application->find('bundle')
+#1 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\wamp\www\l4radiate\artisan(59): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2013-07-22 10:09:07] log.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php:523
+Stack trace:
+#0 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(561): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(188): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\wamp\www\l4radiate\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2013-07-22 15:51:08] log.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php:523
+Stack trace:
+#0 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(561): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(188): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\wamp\www\l4radiate\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []
+[2013-07-22 17:44:49] log.ERROR: exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php:523
+Stack trace:
+#0 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(561): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(188): Symfony\Component\Console\Application->find('bundle:install')
+#2 C:\wamp\www\l4radiate\vendor\symfony\console\Symfony\Component\Console\Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\wamp\www\l4radiate\artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []

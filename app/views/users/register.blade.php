@@ -111,7 +111,7 @@
 	<div class="control-group {{ $errors->has('location') ? 'error' : '' }}">
 		<label class="control-label" for="location">School *</label>
 		<div class="controls">
-			<input type="text" name="location" id="location" value="{{ Request::old('location') }}" />
+			<input type="text" name="location" id="location" value="{{ Request::old('location') }}" style="float:left;"/>
 			{{ $errors->first('location', '<span class="help-inline">:message</span>') }}
 		
 

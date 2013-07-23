@@ -8,7 +8,7 @@
  *   http://www.opensource.org/licenses/mit-license.php
  */
 
-#basic-modal-content {display:none;}
+#basic-modal-content {display:none; float: right;}
 
 /* Overlay */
 #simplemodal-overlay {background-color:#000;}

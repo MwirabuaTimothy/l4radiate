@@ -50,7 +50,7 @@
 					book:{
 						title: 'Book',
 						width: 	'20%',
-						create: false,
+						create: false
 					},
 					created_at: {
 						title: 'Record date',
