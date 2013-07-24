@@ -83,95 +83,14 @@
     <script src="../../../public/assets/scripts/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
     <script src="../../../public/assets/scripts/jtable/jquery.jtable.js" type="text/javascript"></script>
 
-<!-- Added New 
- <link href="<?php echo asset('../../../public/assets/themes/redmond/jquery-ui-1.8.16.custom.css'); ?>" rel="stylesheet" type="text/css" />
- <link href="<?php echo asset('../../../public/assets/scripts/jtable/themes/lightcolor/blue/jtable.css'); ?>" rel="stylesheet" type="text/css" />
-    
- <script src="<?php echo asset('../../../public/assets/scripts/jquery-1.6.4.min.js'); ?>" type="text/javascript"></script>
- <script src="<?php echo asset('../../../public/assets/scripts/jquery-ui-1.8.16.custom.min.js'); ?>" type="text/javascript"></script>
- <script src="<?php echo asset('../../../public/assets/scripts/jtable/jquery.jtable.js'); ?>" type="text/javascript"></script>
--->
 
-
- <script type="text/javascript">
-
-        $(document).ready(function () {
-
-            //Prepare jTable
-            $('#PeopleTableContainer').jtable({
-                title: 'Courses Table',
-                actions: {
-                    listAction: 'CourseAction.php?action=list',
-                    createAction: 'CourseAction.php?action=create',
-                    updateAction: 'CourseAction.php?action=update',
-                    deleteAction: 'CourseAction.php?action=delete'
-                },
-                fields: {
-                    id: {
-                        key: true,
-                        create: false,
-                        edit: false,
-                        list: false
-                    },
-                    course_number: {
-                        title: 'Number',
-                        width: '20%'                                  
-                    },
-                    course_name: {
-                        title: 'Name',
-                        width: '20%'
-                    },
-                    fall_semester:{
-                        title: 'Fall Semester',
-                        width: '20%',
-                        list: false
-                    },
-                    spring_semester:{
-                        title: 'Spring Semester',
-                        width: '20%',
-                        list: false
-                    },
-                    professor:{
-                        title: 'Professor',
-                        width:  '20%',
-                        
-                    },
-                    book:{
-                        title: 'Book',
-                        width:  '20%',
-                        create: false
-                    },
-                    created_at: {
-                        title: 'Record date',
-                        width: '10%',
-                        type: 'date',
-                        create: false,
-                        edit: false,
-                        list: false
-                    },
-                    updated_at: {
-                        title: 'Record date',
-                        width: '10%',
-                        type: 'date',
-                        create: false,
-                        edit: false,
-                        list: false
-                    }
-                }
-            });
-
-            //Load person list from server
-            $('#PeopleTableContainer').jtable('load');
-
-        });
-
-    </script>
 <?php $__env->stopSection(); ?>
 
 
 
 <?php $__env->startSection('content'); ?>
     
+
     <!-- <div class="content"> -->
             <!-- <div id="search_space">Search</div> -->
             <div class="left_side">
@@ -194,39 +113,65 @@
                 <div class="user_photo_space" style="background-color:white; float:left;">
                  
                  <div>Image</div>
-                 <a href="#"><div><input class="btn btn-primary submitbook" type="submit" value="Add Photo" style="font-size: 15px; float:left;"></div></a>
+                 <a href="http://localhost:8000/courses/{$id}"><div><input class="btn btn-primary submitbook" type="submit" value="Add Photo" style="font-size: 15px; float:left;"></div></a>
                 </div>
                 
                 <div class="user_details_space">
 
-                    <div class="black">
-                        <td><div class="word">Name :</div> <div class="word"><?php echo Auth::user()->fullName(); ?></div></td>
-                    </div>
-                    <div class="black">
-                        <td><div class="word">Email :</div> <div class="word"><?php echo Auth::user()->email(); ?></div></td>
-                    </div>
-                    <div class="black">
-                        <td><div class="word">Phone :</div> <div class="word"><?php echo Auth::user()->phone(); ?></div></td>
-                    </div>
-                    <div class="black">
-                        <td><div class="word">College :</div> <div class="word"><?php echo Auth::user()->collegeName(); ?></div></td>
-                    </div>
-                    <!-- <td><div class="word">Name :</div> <div class="word"><?php echo Auth::user()->fullName(); ?></div></td><br />
-                    <td><div class="word">Email :</div> <div class="word"><?php echo Auth::user()->email(); ?></div></td> <br />            
-                    <td><div class="word">Phone :</div> <div class="word"><?php echo Auth::user()->phone(); ?></div></td> <br />
-                    <td><div class="word">College :</div> <div class="word"><?php echo Auth::user()->collegeName(); ?></div></td> <br /> <br /> -->
+                   
 
-                    <a href="/edituser"><div class="editbtn"><input class="btn btn-primary submitbook" type="submit" value="Edit User" style="font-size: 15px;"></div></a>
                     
+                    <form action="/users" method="post">
+                        <div class="black">
+                            <td><div class="word">Name :</div>
+                             <input type="text" name="fname" value="<?php echo Auth::user()->fullName(); ?>" style="width: 200px;" disabled="disabled"></input>
+                            </td>
+                        </div>
+                        <div class="black">
+                            <td><div class="word">Mobile :</div>
+                             <input type="text" name="fname" value="<?php echo Auth::user()->phone(); ?>" style="width: 200px;"></input>
+                            </td>
+                        </div>
+                        <div class="black">
+                            <td><div class="word">Email :</div>
+                             <input type="text" name="fname" value="<?php echo Auth::user()->email(); ?>" style="width: 200px;"></input>
+                            </td>
+                        </div>
+                        <div class="black">
+                            <td><div class="word">College :</div>
+                             <input type="text" name="fname" value="<?php echo Auth::user()->college(); ?>" style="width: 200px;"></input>
+                            </td>
+                        </div>
+
+                        <div class="black">
+                            <td><div class="word" style="font-weight:600; color:blue;" >Password</div>
+                             <!-- <input type="text" name="fname" value="." style="width: 200px;"></input> -->
+                            </td>
+                        </div>
+                        <div class="black">
+                            <td><div class="word">Old Password :</div>
+                             <input type="text" name="fname" value="" style="width: 200px;"></input>
+                            </td>
+                        </div>
+                        <div class="black">
+                            <td><div class="word">New Password :</div>
+                             <input type="text" name="fname" value="" style="width: 200px;"></input>
+                            </td>
+                        </div>
+
+                        <div class="black">
+                            <td><div class="word">Repeat Password :</div>
+                             <input type="text" name="fname" value="" style="width: 200px;"></input>
+                            </td>
+                        </div>
+
+                        <div><input class="btn btn-primary submitbook" type="submit" value="Submit" style="margin:20px 130px 0 0; float:right;"></div>
+                    </form>                
+                
                 </div>
 
 
-                <div class="user_title_space"><div class="title_text">Courses</div></div>
-                <div class="course_table">
-
-                   <div id="PeopleTableContainer" style="width: 100%; margin:2px 0 0 5px;"></div>
-                    
-                </div>
+                
             </div>
             <div class="right_content">
                 <div class="progress_bar_title">Account SetUp Progress</div>

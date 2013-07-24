@@ -85,7 +85,7 @@
 
             <ul class="linkbar top2">
                 <?php if (Auth::check()): ?>
-                    <li>Logged in as <?php echo Auth::user()->fullName(); ?></li> |
+                    <li>Hi, <?php echo Auth::user()->firstName(); ?></li> |
                     <li><?php echo Auth::user()->collegeName(); ?></li> |
                     <li <?php echo (Request::is('mybooks') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('mybooks'); ?>">My Books</a></li>| 
                     <li <?php echo (Request::is('users') ? 'class="active"' : ''); ?>><a href="<?php echo URL::to('users'); ?>">My Account</a></li> | 

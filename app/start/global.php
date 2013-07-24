@@ -87,7 +87,7 @@ App::down(function()
 
 App::missing(function($exception)
 {
-    return Response::view('error', array(), 404);
+    // return Response::view('error', array(), 404);
 });
 
 // App::abort(401, 'You are not authorized.');

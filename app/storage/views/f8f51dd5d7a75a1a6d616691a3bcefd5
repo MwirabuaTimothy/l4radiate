@@ -1,0 +1,81 @@
+
+<?php /*  Web site Title  */ ?>
+<?php $__env->startSection('title'); ?>
+@parent
+:: Account Login
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+<div class="page-header">
+	<h1>Edit your settings</h1>
+</div>
+<form method="post" action="" class="form-horizontal">
+	<!-- First Name -->
+	<div class="control-group <?php echo $errors->has('firstname') ? 'error' : ''; ?>">
+		<label class="control-label" for="firstname">First Name</label>
+		<div class="controls">
+			<input type="text" name="firstname" id="firstname" value="<?php echo Request::old('firstname', $user->firstname); ?>" />
+			<?php echo $errors->first('firstname'); ?>
+		</div>
+	</div>
+	<!-- ./ first name -->
+
+	<!-- Last Name -->
+	<div class="control-group <?php echo $errors->has('lastname') ? 'error' : ''; ?>">
+		<label class="control-label" for="lastname">Last Name</label>
+		<div class="controls">
+			<input type="text" name="lastname" id="lastname" value="<?php echo Request::old('lastname', $user->lastname); ?>" />
+			<?php echo $errors->first('lastname'); ?>
+		</div>
+	</div>
+	<!-- ./ last name -->
+
+	<!-- Email -->
+	<div class="control-group <?php echo $errors->has('email') ? 'error' : ''; ?>">
+		<label class="control-label" for="email">Email</label>
+		<div class="controls">
+			<input type="text" name="email" id="email" value="<?php echo Request::old('email', $user->email); ?>" />
+			<?php echo $errors->first('email'); ?>
+		</div>
+	</div>
+	<!-- ./ email -->
+
+	<!-- Password -->
+	<div class="control-group <?php echo $errors->has('password') ? 'error' : ''; ?>">
+		<label class="control-label" for="password">Password</label>
+		<div class="controls">
+			<input type="password" name="password" id="password" value="" />
+			<?php echo $errors->first('password'); ?>
+		</div>
+	</div>
+	<!-- ./ password -->
+
+	<!-- Password Confirm -->
+	<div class="control-group <?php echo $errors->has('password_confirmation') ? 'error' : ''; ?>">
+		<label class="control-label" for="password_confirmation">Password Confirm</label>
+		<div class="controls">
+			<input type="password" name="password_confirmation" id="password_confirmation" value="" />
+			<?php echo $errors->first('password_confirmation'); ?>
+		</div>
+	</div>
+	<!-- ./ password confirm -->
+
+	<!-- Update button -->
+	<div class="control-group">
+		<div class="controls">
+			<button type="submit" class="btn">Update</button>
+		</div>
+	</div>
+	<!-- ./ update button -->
+</form>
+<?php $__env->stopSection(); ?>
+
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/account-index.css'); ?> ">
+ 
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.bookcheetah', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

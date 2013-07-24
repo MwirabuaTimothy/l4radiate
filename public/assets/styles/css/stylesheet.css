@@ -90,6 +90,7 @@ body {
 	text-decoration:none;
 	width: 200px;
 	background-color: #CCC;
+	float: left;
 }
 
 /*
@@ -135,7 +136,7 @@ li.left_side a:hover
 }
 
 .center_content{
-	width:645px;
+	width:640px;
 	height:auto;
 	float:left;
 	margin:0px 0 0 0px;
@@ -171,7 +172,7 @@ li.left_side a:hover
 
 .user_details_space{
 	background-color:#FFF;
-	width:350px;
+	width:520px;
 	height:auto;
 	float:left;
 	margin:2px  0 0 10px;	
@@ -197,14 +198,15 @@ li.left_side a:hover
 }
 
 .black{
-	width: 260px;
+	width: 450px;
 	height: 30px;
 	margin: 2px 0 0 25px;
+	/*background-color: #000;*/
 }
 
 
 .word{
-	width:120px;
+	width:150px;
 	height:25px;
 	font-family:Verdana, Geneva, sans-serif;
 	font-weight:300;
@@ -239,7 +241,7 @@ li.left_side a:hover
 }
 
 .right_content{
-	width:265px;
+	width:250px;
 	height:auto;
 	margin:0 0 0 5px; 
 	float:left;

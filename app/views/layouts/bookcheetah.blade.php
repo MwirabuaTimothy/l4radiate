@@ -85,7 +85,7 @@
 
             <ul class="linkbar top2">
                 @if (Auth::check())
-                    <li>Logged in as {{ Auth::user()->fullName() }}</li> |
+                    <li>Hi, {{ Auth::user()->firstName() }}</li> |
                     <li>{{ Auth::user()->collegeName() }}</li> |
                     <li {{ (Request::is('mybooks') ? 'class="active"' : '') }}><a href="{{ URL::to('mybooks') }}">My Books</a></li>| 
                     <li {{ (Request::is('users') ? 'class="active"' : '') }}><a href="{{ URL::to('users') }}">My Account</a></li> | 

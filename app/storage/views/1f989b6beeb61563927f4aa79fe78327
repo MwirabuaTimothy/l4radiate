@@ -1,0 +1,59 @@
+
+<?php $__env->startSection('main'); ?>
+
+<h1>Edit Course</h1>
+<?php echo Form::model($course, array('method' => 'PATCH', 'route' => array('courses.update', $course->id))); ?>
+    <ul>
+        <li>
+            <?php echo Form::label('course_number', 'Course_number:'); ?>
+            <?php echo Form::text('course_number'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('course_name', 'Course_name:'); ?>
+            <?php echo Form::text('course_name'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('fall_semester', 'Fall_semester:'); ?>
+            <?php echo Form::input('number', 'fall_semester'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('spring_semester', 'Spring_semester:'); ?>
+            <?php echo Form::input('number', 'spring_semester'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('professor', 'Professor:'); ?>
+            <?php echo Form::text('professor'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::label('book', 'Book:'); ?>
+            <?php echo Form::text('book'); ?>
+        </li>
+
+        <li>
+            <?php echo Form::submit('Update', array('class' => 'btn btn-info')); ?>
+            <?php echo link_to_route('courses.show', 'Cancel', $course->id, array('class' => 'btn')); ?>
+        </li>
+    </ul>
+<?php echo Form::close(); ?>
+
+<?php if ($errors->any()): ?>
+    <ul>
+        <?php echo implode('', $errors->all('<li class="error">:message</li>')); ?>
+    </ul>
+<?php endif; ?>
+
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('assets'); ?>
+<!-- add your css and js here, dont add the jquery library again -->
+
+ <link rel="stylesheet" href="<?php echo asset('assets/styles/css/courses-edit.css'); ?> ">
+ 
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.scaffold', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

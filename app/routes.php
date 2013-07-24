@@ -53,10 +53,13 @@ Route::get('social/auth', array("as" => "hybridauth", function($action = "")
 */
 
 Route::controller('users', 'UsersController');
+Route::get('edituser', 'UsersController@getEdit');
 Route::resource('users/index', 'UsersController');
 Route::resource('login', 'UsersController');
 Route::resource('register', 'UsersController');
 Route::resource('courses', 'CoursesController');
+Route::resource('profiles', 'ProfilesController');
+
 /*
 |--------------------------------------------------------------------------
 | Application Search Routes
@@ -69,8 +72,6 @@ Route::get('oauth/{provider}', 'Oauth2Controller@getIndex');
 | Application Search Routes
 |--------------------------------------------------------------------------
 */
-
-
 Route::get('howitworks', function(){ return View::make('howitworks');});
 Route::get('privacypolicy', function(){ return View::make('privacypolicy');});
 Route::get('termsofuse', function(){ return View::make('termsofuse');});
@@ -91,3 +92,6 @@ Route::get('ssearch','SearchController@ssearch');
 Route::controller('/', 'HomeController');
 
 
+
+
+Route::resource('profiles', 'ProfilesController');

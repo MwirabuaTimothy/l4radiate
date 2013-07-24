@@ -60,6 +60,11 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 		return $this->firstname . ' ' . $this->lastname;
 	}
 
+	public function firstName()
+	{
+		return $this->firstname;
+	}
+
 	public function collegeName()
 	{
 		return $this->location;
@@ -74,7 +79,11 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 		return $this->terms;
 	}
 
-	public function location(){
+	public function college(){
 		return $this->location;
+	}
+
+	public function id(){
+		return $this->id;
 	}
 }
