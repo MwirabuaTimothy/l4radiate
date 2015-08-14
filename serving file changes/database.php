@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'thedmaea_bookcheetah',
 			'username'  => 'thedmaea_tim',
-			'password'  => 'timo4257',
+			'password'  => 'password',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
